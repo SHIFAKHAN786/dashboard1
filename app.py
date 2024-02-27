@@ -25,7 +25,7 @@ new_title = '<p style="font-family:Berlin Sans FB;text-align: center; color:whit
 st.markdown(new_title, unsafe_allow_html=True)
 st.divider()
 
-my_dataset = "C:/Users/91932/OneDrive/Desktop/dashboard/data/DATA_2019.csv"
+my_dataset = "DATA_2019.csv"
 df = pd.read_csv(my_dataset)
 
 tab1, tab2, tab3, tab4 =st.tabs(['ABOUT DATA','VISUALIZATION','DASHBOARD','ANALYSIS'])
